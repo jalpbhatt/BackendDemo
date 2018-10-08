@@ -145,7 +145,7 @@ INSERT INTO `branch_visit_db`.`employee`
 `branch_code`,
 `role_type`)
 VALUES
-(654768, "uuid", "William", "", "William","033-003","AUT");
+(654768, "654768", "William", "", "William","033-003","AUT");
 
 INSERT INTO `branch_visit_db`.`employee`
 (`employee_id`,
@@ -156,7 +156,7 @@ INSERT INTO `branch_visit_db`.`employee`
 `branch_code`,
 `role_type`)
 VALUES
-(654768, "uuid", "William", "", "William","732-001","AUT");
+(654768, "654768", "William", "", "William","732-001","AUT");
 
 INSERT INTO `branch_visit_db`.`employee`
 (`employee_id`,
@@ -167,7 +167,7 @@ INSERT INTO `branch_visit_db`.`employee`
 `branch_code`,
 `role_type`)
 VALUES
-(654768, "uuid", "William", "", "William","732-712","AUT");
+(654768, "654768", "William", "", "William","732-712","AUT");
 
 INSERT INTO `branch_visit_db`.`employee`
 (`employee_id`,
@@ -178,7 +178,7 @@ INSERT INTO `branch_visit_db`.`employee`
 `branch_code`,
 `role_type`)
 VALUES
-(654768, "uuid", "William", "", "John","035-432","SU");
+(654768, "654768", "William", "", "John","035-432","SU");
 
 INSERT INTO `branch_visit_db`.`employee`
 (`employee_id`,
@@ -189,7 +189,7 @@ INSERT INTO `branch_visit_db`.`employee`
 `branch_code`,
 `role_type`)
 VALUES
-(654768, "uuid", "William", "", "John","032-712","SU");
+(654768, "654768", "William", "", "John","032-712","SU");
 
 -- 7. Job Type Table insert query
 
@@ -258,31 +258,27 @@ VALUES
 INSERT INTO `branch_visit_db`.`vendor`
 (`vendor_id`,
 `vendor_desc`,
-`vendor_name`,
-`contractor_id`)
+`vendor_name`)
 VALUES
-(1,"ABC Vendors","ABC Vendors","");
+(1,"ABC Vendors","ABC Vendors");
 
 INSERT INTO `branch_visit_db`.`vendor`
 (`vendor_id`,
 `vendor_desc`,
-`vendor_name`,
-`contractor_id`)
+`vendor_name`)
 VALUES
-(2,"Fixwell Vendors","Fixwell Vendors","");
+(2,"Fixwell Vendors","Fixwell Vendors");
 
 INSERT INTO `branch_visit_db`.`vendor`
 (`vendor_id`,
 `vendor_desc`,
-`vendor_name`,
-`contractor_id`)
+`vendor_name`)
 VALUES
-(3,"Fire Safe Vendors","Fire Safe Vendors","");
+(3,"Fire Safe Vendors","Fire Safe Vendors");
 
 INSERT INTO `branch_visit_db`.`vendor`
 (`vendor_id`,
 `vendor_desc`,
-`vendor_name`,
-`contractor_id`)
+`vendor_name`)
 VALUES
-(3,"ATM Professionals","ATM Professionals","");
+(4,"ATM Professionals","ATM Professionals");
